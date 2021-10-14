@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.barbershop</groupId>
-    <artifactId>dio-serverless-barbershop</artifactId>
+    <artifactId>serverless-barbershop</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>jar</packaging>

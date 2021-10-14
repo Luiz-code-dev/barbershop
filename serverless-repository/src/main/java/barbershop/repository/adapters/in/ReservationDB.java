@@ -1,16 +1,15 @@
 package barbershop.repository.adapters.in;
 
+import barbershop.repository.adapters.converter.LocalDateConverter;
+import barbershop.repository.adapters.converter.LocalTimeConverter;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBDocument;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTypeConverted;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTypeConvertedEnum;
 import com.luizmelo.barbershop.domain.Reservation;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import barbershop.repository.adapters.converter.LocalDateConverter;
-import barbershop.repository.adapters.converter.LocalTimeConverter;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

@@ -1,5 +1,6 @@
 package com.barbershop.adapter.web.in;
 
+
 import barbershop.repository.adapters.BarbershopRepositoryPortImpl;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
@@ -14,7 +15,7 @@ import com.luizmelo.barbershop.ports.in.BookReservationUseCase;
 import com.luizmelo.barbershop.ports.in.CustomerCommand;
 import com.luizmelo.barbershop.ports.out.BookedReservation;
 import jakarta.validation.ConstraintViolationException;
-import one.digitalinnovationone.barbershop.adapter.web.in.dto.BookReservationDTO;
+import com.barbershop.adapter.web.in.dto.BookReservationDTO;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package one.digitalinnovationone.barbershop.adapter.web.in.dto;
+package com.barbershop.adapter.web.in.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

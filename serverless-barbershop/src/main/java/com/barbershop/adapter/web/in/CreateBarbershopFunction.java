@@ -14,7 +14,7 @@ import com.luizmelo.barbershop.ports.in.CreateBarbershopCommand;
 import com.luizmelo.barbershop.ports.in.CreateBarbershopUseCase;
 import com.luizmelo.barbershop.ports.out.CreatedBarbershop;
 import jakarta.validation.ConstraintViolationException;
-import one.digitalinnovationone.barbershop.adapter.web.in.dto.CreateBarbershopDTO;
+import com.barbershop.adapter.web.in.dto.CreateBarbershopDTO;
 
 import java.io.IOException;
 import java.util.HashMap;
